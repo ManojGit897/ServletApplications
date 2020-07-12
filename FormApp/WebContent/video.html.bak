@@ -1,0 +1,31 @@
+<pre>
+<body bgcolor='wheat'>
+  <center>
+  <h1 style="color:red; text-align:center"> Welcome to Our world  </h1><br/><br/><br/>
+
+            Butta bomma song.....
+<audio src="manoj3.mp3" controls='controls'width='200px'height='200px'><br/><br/><br/><br/>
+</center>
+</body>
+
+
+       
+
+
+<body>
+<center>
+
+<video src="manoj1.mp4" width="480" height="300" controls="controls"></video><br/><br/>
+<video src="manoj2.mp4" width="480" height="300" controls="controls" ></video><br/><br/><br/>
+<video src="manoj3.mp4" width="480" height="300" controls="controls"></video><br/><br/><br/>
+<video src="manoj4.mp4" width="480" height="300" controls="controls"></video><br/><br/><br/>
+<audio src="manoj2.mp3" controls='controls'width='200px'height='200px'><b>
+         <a href="home.html"> <center><h1>Click here for Manoj Home Page </h1> </center></a>  
+
+
+
+</center>
+</body>
+</pre>
+
+

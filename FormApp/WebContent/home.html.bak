@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Manoj creations</title>
+	<style type="text/css">
+	*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}
+header{
+	background-image: url(king.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin: 20px;
+}
+ul li{
+	display: inline-block;
+}
+ul li{
+text-decoration: none;
+color: #fff;
+padding: 5px,20px;
+border: 1px solid #fff;	
+transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 40%;
+	left: 55%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+color: #fff;
+font-size: 60px;
+}
+.button{
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+	font-size: 15px;
+}
+.btn:hover{
+background-color: #fff;
+	color: #000;	
+}
+.warp{
+	position: absolute;
+	width: 30%;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.search{
+	width: 80%
+	position:relative;
+}
+.searchterm{
+	float: left;
+	width: 100%;
+	border: 2px solid #00B4CC;
+	padding: 10px;
+	font-size: 15px;
+	outline: none;
+}
+.searchbtn{
+	position: absolute;
+	width: 30%;
+	height: 40px;
+	border: 1px solid #00B4CC;
+	background-color: #00B4CC;
+	text-align: center;
+	color: #fff;
+}
+</style>
+</head>
+<body>
+	<form>
+		<div class="warp">
+<div class="search">
+<input type="text" name="text" class="searchterm" placeholder="search here">
+<button type="submit" name="submit" class="searchbtn" value="search">search</button>
+</div>
+</div>
+<header>
+	<div class="main">
+		<img src="eagle.png" width="100px; height=100px">
+		<ul>
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="service.html">Service</a></li>
+			<li><a href="about us.html">About us</a></li>
+			<li><a href="form.html">Form</a></li>
+		</ul>
+	</div>
+	<div class="title">
+		<h1>Manoj  creations</h1>
+	</div>
+	<div class="button">
+		<a href="video.html" class="btn">watch videos</a>
+		<a href="photos.html" class="btn">photos</a>
+	</div>
+</header>
+</form>
+</body>
+</html>
