@@ -21,6 +21,7 @@ public class Search extends HttpServlet {
 		
 		res.sendRedirect("https://www.google.co.in/#q="+name);
 		
+		
 	}
 
 }
