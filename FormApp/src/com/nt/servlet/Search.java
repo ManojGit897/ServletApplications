@@ -19,7 +19,7 @@ public class Search extends HttpServlet {
 		
 		String name=req.getParameter("google");
 		
-		res.sendRedirect("https://www.google.co.in/#q="+name);
+		res.sendRedirect("https://www.google.co.in/search?q="+name);
 		
 		
 	}
